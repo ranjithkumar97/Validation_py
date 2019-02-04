@@ -35,7 +35,7 @@ class Validation:
 
     def string_validation(self):
         while True:
-            self.name = raw_input()
+            self.name = input()
             if self.name.isalpha():
                 break
             else:
